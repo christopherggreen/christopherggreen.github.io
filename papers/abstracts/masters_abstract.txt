@@ -1,0 +1,17 @@
+In this thesis we examine the connections between
+orthogonal polynomials and the Lanczos algorithm for tridiagonalizing
+a Hermitian matrix.  The Lanczos algorithm provides an easy way to 
+calculate and to estimate the eigenvalues and eigenvectors of such a matrix.  
+It also forms the basis of several popular iterative methods for solving 
+linear systems of the form $Ax = b$, where $A$ is an $m \times m$ Hermitian matrix 
+and $b$ is an $m \times 1$ column vector.  Iterative methods often provide significant 
+computational savings when solving such systems.  
+
+We demonstrate how the Lanczos algorithm gives rise to a three-term recurrence, from
+which a family of orthogonal polynomials may be derived.  We explore two of the
+more important consequences of this line of thought:  the behavior of the Lanczos
+iteration in the presence of finite-precision arithmetic, and the ability of the 
+Lanczos iteration to compute zeros of orthogonal polynomials.  A deep understanding 
+of the former is crucial to actual software implementation of the algorithm, while
+knowledge of the latter provides an easy and efficient means of constructing 
+quadrature rules for approximating integrals.

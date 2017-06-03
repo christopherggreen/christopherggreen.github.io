@@ -1,0 +1,21 @@
+Cerioli (2010) introduced a Mahalanobis distance-based 
+multivariate outlier detection methodology, the Iterated Reweighted 
+Minimum Covariance Determinant (IRMCD) method, that is more accurate, 
+both in the presence and absence of outliers, than previous approaches
+using MCD-based Mahalanobis distances. The IRMCD method uses an approximation, 
+developed by Hardin and Rocke (2005), for the finite 
+sample distribution of MCD-based squared Mahalanobis distances. This 
+approximation, however, was developed for the maximum-breakdown point
+case of the MCD estimate; its performance for MCD with other subsample 
+sizes has not been studied to our knowledge. Thus it is not clear that
+one can rely on the IRMCD approach when using MCD with subsample sizes
+other than the maximum-breakdown point case. These MCD variants are of
+interest in applications (e.g., with financial data) where one is 
+hesitant to discard too much of 
+the data in building location and dispersion estimates. Hence, in this
+technical note, we investigate how well Hardin and Rocke's approximation
+works for the MCD in general. We use a simulation experiment more 
+extensive that the experiment performed by Hardin and Rocke to construct
+a modified approximation for use with MCD-based squared Mahalanobis 
+distances. We conclude by validating the IRMCD method for some MCD variants
+with larger subsample sizes that are of interest to financial practitioners.

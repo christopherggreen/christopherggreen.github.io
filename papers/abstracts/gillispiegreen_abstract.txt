@@ -1,0 +1,9 @@
+By adding a second parameter, Conway and Maxwell created a new
+distribution for situations where data deviate from the standard Poisson
+distribution. This new distribution contains a normalization constant
+expressed as an infinite sum whose summation has no known closed-form
+expression. Shmueli et al. produced an approximation for this sum but
+proved that it was valid only for integer values of the second parameter,
+although they conjectured it was also valid for non-integers. Here we
+prove their conjecture to be true and discuss for what range of parameters
+the approximation can be accurately applied.
